@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    background-color: #0c0b0bd8;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.table {
+    background-color: #fff;
+    max-width: 601px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Books {
+    position: relative;
+    top: 40px;
+}
+
+form {
+    background-color: #59eea8;
+    max-width: 601px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-control input {
+    width: 100%;
+    border-radius: 10px solid black;
+}
+
+h1 {
+    margin: 20px;
+    padding-top: 10px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #20aee2;
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
